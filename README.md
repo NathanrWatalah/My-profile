@@ -10,13 +10,13 @@ I am an IT specialist and data analyst with experience in:
 - Cloud computing basics and cybersecurity fundamentals
 
 ## Projects
-### Project 1: [Project Name]
-Brief description of the project, tools used, and what it accomplishes.
+### Project 1: [Power BI dashboards]
+      I still working on this projects.
 
-### Project 2: [Project Name]
-Brief description of the project, tools used, and outcomes.
+### Project 2: [School Management System]
+Projects inprogress.
 
-*(Add more projects as needed)*
+
 
 ## Skills
 - Programming: Python, SQL
@@ -31,4 +31,4 @@ Brief description of the project, tools used, and outcomes.
 
 ---
 
-**Keywords for indexing:** IT, Data Analytics, Python, SQL, Power BI, System Administration, Cloud, Cybersecurity, Portfolio, Nathanr Watalah
+**Keywords for indexing:** IT, Data Analytics, Python, SQL, Power BI, System Administration, Cloud, Cybersecurity, Portfolio, Nathan r Watalah
