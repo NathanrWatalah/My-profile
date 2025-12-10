@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watalah | Data Analyst & IT Specialist</title>
+    <style>
+    
+    /* Reset and basic styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+        background-color: #f5f7fa;
+        color: #333;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    /* Header */
+    header {
+        background-color: #1e3a8a;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 0 15px;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #60a5fa;
+    }
+
+    /* Sections */
+    section {
+        padding: 60px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #1e3a8a;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* Skills */
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skill {
+        background-color: #fff;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    
+    #Nathan {
+        margin-top: 1px;
+        float: left;
+    width: 137px;      /* or any size you want */
+    height: 137px;     /* must be equal to width */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+        
+    
+
+    /* Projects & Experience */
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .project-card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+        margin-bottom: 10px;
+        color: #1e3a8a;
+    }
+
+    .project-card p {
+        font-size: 0.95rem;
+    }
+
+    /* Contact */
+    .contact-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-info a {
+        display: block;
+        margin: 5px 0;
+        font-weight: 500;
+    }
+
+    form {
+        max-width: 600px;
+        margin: auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    form button {
+        background-color: #1e3a8a;
+        color: #fff;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+    }
+
+    form button:hover {
+        background-color: #2563eb;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #1e3a8a;
+        color: #fff;
+    }
+
+    /* Media Queries for All Devices */
+    @media (max-width: 1200px) {
+        header h1 {
+            font-size: 1.8rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media (max-width: 992px) {
+        section {
+            padding: 50px 15px;
+        }
+        .skills {
+            gap: 15px;
+        }
+        nav a {
+            margin: 0 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        nav a {
+            display: block;
+            margin: 10px 0;
+        }
+        header h1 {
+            font-size: 1.6rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        .skills {
+            flex-direction: column;
+            gap: 15px;
+        }
+        form {
+            padding: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        header h1 {
+            font-size: 1.4rem;
+        }
+        h2 {
+            font-size: 1.4rem;
+        }
+        .project-card, .skill {
+            padding: 10px 15px;
+        }
+        form input, form textarea {
+            padding: 8px;
+            font-size: 0.95rem;
+        }
+        form button {
+            padding: 10px 20px;
+            font-size: 0.95rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        section {
+            padding: 40px 10px;
+        }
+        nav a {
+            font-size: 0.9rem;
+        }
+    }
+</style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img  id = "Nathan"scr="Image/Nathan.jpg" alt="Na" srcset="Image/Nathan.jpg">
+        
+        <h1>Nathan R.Watalah</h1>
+        <p>Data Analyst & IT Support Specialist</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Mr. Watalah, a Data Analyst and IT Support Specialist passionate about transforming data into actionable
+            insights and building efficient IT solutions.</p>
+        <p>Skilled in HTML, CSS, PHP, SQL, MySQL, Power BI, Python, and data analytics, I thrive on solving complex
+            problems and delivering meaningful results. With strong communication and problem-solving skills, I aim to
+            make technology work seamlessly for individuals and businesses alike.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">PHP</div>
+            <div class="skill">SQL</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">Python</div>
+            <div class="skill">Data Analytics</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Problem-Solving</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects Inprogress</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>Project Name</h3>
+                <p> I am still working on projects</p>
+                 <!--<p></p>-->
+            </div>
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p> I am still working on projects</p>
+               <!--<p></p>--> 
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Job Title</h3>
+                <p>Company / Project: [Add Company Name]</p>
+                <p>Duration: [Add Duration]</p>
+                <p>Key Achievements: [Add Achievements]</p>
+            </div>
+            <div class="project-card">
+                <h3>Job Title</h3>
+                <p>Company / Project: [Add Company Name]</p>
+                <p>Duration: [Add Duration]</p>
+                <p>Key Achievements: [Add Achievements]</p>
+            </div>
+            <!-- Add more experience cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <a href="mailto:nathanrwatalah@gmail.com">Email: nathanrwatalah@gmail.com</a>
+            <a href="tel:+231779429309/880012201">Phone: +231779429309/880012201</a>
+            <a href="https://www.linkedin.com/in/nathan-r-watalah-930b792ba" target="_blank">LinkedIn</a>
+
+            <a href="https://github.com/NathanrWatalah" target="_blank">GitHub</a>
+        </div>
+
+        <form action="mailto:nathanrwatalah@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Nathan R.Watalah. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
