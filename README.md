@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="yvF7JKKiwzXY7OmxZD5wWphPywZMIsw5gLpJYL2VgB8" />
+
 
 
 # My Profile – Nathan r Watalah
