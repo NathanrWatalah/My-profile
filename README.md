@@ -1,3 +1,6 @@
+<meta name="google-site-verification" content="yvF7JKKiwzXY7OmxZD5wWphPywZMIsw5gLpJYL2VgB8" />
+
+
 # My Profile – Nathan r Watalah
 
 This repository contains my personal profile, projects, and work in IT and Data Analytics.
